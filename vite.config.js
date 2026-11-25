@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // Necessario per percorsi relativi su GitHub Pages o sottocartelle
+  base: '/scuole-aperte-unimore/', // Corretto per https://osservatorio-urbano.github.io/scuole-aperte-unimore/
   server: {
     watch: {
       ignored: ['**/public/**']
